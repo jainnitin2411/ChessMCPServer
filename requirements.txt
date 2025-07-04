@@ -1,3 +1,4 @@
 # Requirements for ChessMCPServer
 mcp[cli]>=1.10.1
 requests>=2.32.4
+# Standard library modules (do not require installation): json, sys
