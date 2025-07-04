@@ -2,16 +2,14 @@ Install this MCP server by adding the following json code to your JSON config fi
 
 ```json
 {
-    "server": {
-        "name": "Chess-Server",
-        "host": "localhost",
-        "port": 8080,
-        "type": "mcp",
-        "enabled": true,
-        "settings": {
-            "maxPlayers": 2,
-            "gameType": "chess",
-            "logging": true
+    "mcpServers": {
+        "server":{
+            "command": "uv",
+            "args": [
+                "--from",
+                "git+https://github.com/jainnitin2411/ChessMCPServer.git",
+                "chess"
+            ]
         }
     }
 }
